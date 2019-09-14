@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0a0a0a;
+    color: #dedbde;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline solid #dedbde;
+}
+
+textarea {
+    background-color: #0a0a0a;
+    border-radius: 8px 15px;
+    border: 2px solid #dedbde;
+    color: #dedbde;
+}
+
+input {
+    background-color: #0a0a0a;
+    border-radius: 50em;
+    border: 2px solid #dedbde;
+    color: #dedbde;
+    height: 20px;
+    width: 80%;
+}
+
+button {
+    height: 25px;
+    font-size: 12pt;
+    color: #dedbde;
+    background-color: #c80000;
+    font-weight: bold;
+    border: 2px solid #dedbde;
+    border-radius: 50em;
+}
+
+fieldset:last-of-type button {
+    min-width: 85px;
+    width: 18%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.wV {
+    background-color: #c80000;
+}
+
+p {
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    border: 5px double #1a1a1a;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    border: 1px dashed #dedbde;
+}
+
+.words {
+    border: 1px solid #dedbde;
+    background-color: #1a1a1a;
+    border-style: none;
+    border-radius: 50em 0px 0px 50em;
+}
+
+tr .words ~ .words, .wV + td {
+    border-left-style: none;
+    border-radius: 0px;
+}
+
+tr .words:last-of-type {
+    border-radius: 0px 50em 50em 0px;
+}
+
+fieldset legend {
+    font-weight: bold;
+    text-decoration: underline double;
+}
+
+fieldset {
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    border: 3px double #dedbde;
+}
+
+fieldset:first-of-type legend {
+    text-align: center;
+}
+
+#acrostic {
+    margin-top: 12px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#error {
+    color: #c80000;
+    font-weight: bolder;
+}
